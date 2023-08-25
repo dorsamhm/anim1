@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheet/global.css">
+    <link rel="stylesheet" href="assets/stylesheet/master.css">
+</head>
+<!-- https://ytng.dev/ -->
+<body>
+    <main class="row">
+        <div class="row load">
+            <h2>y</h2>
+            <h2>t</h2>
+            <h2>n</h2>
+            <h2>g</h2>
+            <figure class="row">
+                <img src="assets/img/blue.jpg" alt="">
+            </figure>
+            <figure class="row">
+                <img src="assets/img/purple.jfif" alt="">
+            </figure>
+            <figure class="row">
+                <img src="assets/img/black.jpg" alt="">
+            </figure>
+            <figure class="row">
+                <img src="assets/img/green.jpg" alt="">
+            </figure>
+            <figure class="row">
+                <img src="assets/img/blue.jpg" alt="">
+            </figure>
+            <figure class="row">
+                <img src="assets/img/purple.jfif" alt="">
+            </figure>
+            <div class="row">
+                <figure class="row">
+                    <img src="assets/img/black.jpg" alt="">
+                </figure>
+                <figure class="row">
+                    <img src="assets/img/green.jpg" alt="">
+                </figure>
+                <figure class="row">
+                    <img src="assets/img/blue.jpg" alt="">
+                </figure>
+                <figure class="row">
+                    <img src="assets/img/purple.jfif" alt="">
+                </figure>
+            </div>
+        </div>
+        <div class="row name">
+            <h2>wucai</h2>
+            <h2>ukiyo</h2>
+            <h2>huelu</h2>
+            <h2>aube</h2>
+        </div>
+        <div class="row" id="slide">
+            <a href="javascript:;" onclick="menuToggle()">click</a>
+            <figure class="row">
+                <img src="assets/img/blue.jpg" alt="">
+            </figure>
+            <figure class="row">
+                <img src="assets/img/purple.jfif" alt="">
+            </figure>
+            <figure class="row">
+                <img src="assets/img/black.jpg" alt="">
+            </figure>
+            <figure class="row">
+                <img src="assets/img/green.jpg" alt="">
+            </figure>
+        </div>
+    </main>
+    <script>
+        let i = 1
+        function menuToggle() {
+            if (i % 2) {
+                document.getElementById('slide').style.right = '0'
+            }
+            else {
+                document.getElementById('slide').style.right = '-70%'
+            }
+            i++
+        }
+    </script>
+</body>
+</html>
